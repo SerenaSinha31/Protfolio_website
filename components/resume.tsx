@@ -3,21 +3,48 @@
 
 
 "use client"
+import React, { useState } from "react"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Download, Eye, FileText, Calendar, MapPin, Phone, Mail, Github, Linkedin } from "lucide-react"
 
+// export function Resume() {
+//   const handleDownload = () => {
+//     // This would typically generate and download a PDF
+//     window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+//   }
+
+//   const handlePreview = () => {
+//     // This would open a preview modal or new tab
+//     window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+//   }
+
 export function Resume() {
+  // ——————————————————————————————————————————
+  // 1️⃣  State for the preview modal
+  // ——————————————————————————————————————————
+  const [showPreview, setShowPreview] = useState(false)
+  const PDF_PATH = "/serena12216517.pdf" // adjust if you move the file
+
+  // ——————————————————————————————————————————
+  // 2️⃣  Download handler: forces “Save as…”
+  // ——————————————————————————————————————————
   const handleDownload = () => {
-    // This would typically generate and download a PDF
-    window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+    const link = document.createElement("a")
+    link.href = PDF_PATH
+    link.download = "serena12216517.pdf"
+    link.click()
   }
 
+  // ——————————————————————————————————————————
+  // 3️⃣  Preview handler: just open the modal
+  // ——————————————————————————————————————————
   const handlePreview = () => {
-    // This would open a preview modal or new tab
-    window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
-  }
+// This would open a preview modal or new tab
+   window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+}
+ 
 
   return (
     <section

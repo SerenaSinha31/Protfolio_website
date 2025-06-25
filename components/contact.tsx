@@ -44,7 +44,7 @@ export function Contact() {
                     variant="outline"
                     className="w-full border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 bg-transparent"
                   >
-                    <a href="https://linkedin.com/in/serena-sinha" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/serena-sinha-864357254/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="w-4 h-4 mr-2" />
                       Connect on LinkedIn
                     </a>
