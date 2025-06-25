@@ -10,14 +10,14 @@ const skillCategories = [
   },
   {
     title: "Technologies & Frameworks",
-    skills: ["React JS", "Node JS", "Git", "GitHub", "MongoDB"],
+    skills: ["React JS", "Node JS", "Git", "GitHub", "MongoDB", "VSCODE"],
     gradient: "from-cyan-500 to-blue-500",
     bgGradient: "from-cyan-900/20 to-blue-900/20",
     emoji: "🚀",
   },
   {
     title: "Core Skills",
-    skills: ["Web Development", "Problem-Solving", "Responsive Web Design", "DSA", "UX/UI", "Postman"],
+    skills: ["Web Development", "Problem-Solving", "Responsive Web Design", "DSA", "UX/UI", "Postman", "PHP"],
     gradient: "from-purple-500 to-indigo-500",
     bgGradient: "from-purple-900/20 to-indigo-900/20",
     emoji: "⚡",

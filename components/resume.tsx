@@ -12,24 +12,20 @@ import { Download, Eye, FileText, Calendar, MapPin, Phone, Mail, Github, Linkedi
 // export function Resume() {
 //   const handleDownload = () => {
 //     // This would typically generate and download a PDF
-//     window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+//     window.open("/serena12216517.pdf", "_blank") 
 //   }
 
 //   const handlePreview = () => {
 //     // This would open a preview modal or new tab
-//     window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+//     window.open("/serena12216517.pdf", "_blank") 
 //   }
 
 export function Resume() {
-  // ——————————————————————————————————————————
-  // 1️⃣  State for the preview modal
-  // ——————————————————————————————————————————
+  
   const [showPreview, setShowPreview] = useState(false)
-  const PDF_PATH = "/serena12216517_mod.pdf" // adjust if you move the file
+  const PDF_PATH = "/serena12216517_mod.pdf" 
 
-  // ——————————————————————————————————————————
-  // 2️⃣  Download handler: forces “Save as…”
-  // ——————————————————————————————————————————
+//To handel download
   const handleDownload = () => {
     const link = document.createElement("a")
     link.href = PDF_PATH
@@ -37,12 +33,10 @@ export function Resume() {
     link.click()
   }
 
-  // ——————————————————————————————————————————
-  // 3️⃣  Preview handler: just open the modal
-  // ——————————————————————————————————————————
+//to handel preview
   const handlePreview = () => {
 // This would open a preview modal or new tab
-   window.open("/serena12216517_mod.pdf", "_blank") // Replace with your actual PDF path
+   window.open("/serena12216517_mod.pdf", "_blank") 
 }
  
 
@@ -234,6 +228,7 @@ export function Resume() {
                     "Git",
                     "Socket.io",
                     "DSA",
+                    "PHP"
                   ].map((skill, index) => (
                     <span
                       key={index}
