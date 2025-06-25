@@ -80,7 +80,7 @@ export function Hero() {
                   <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 rounded-2xl rotate-6 animate-pulse"></div>
                   <div className="absolute inset-2 bg-slate-800 dark:bg-slate-900 rounded-2xl flex items-center justify-center -rotate-6">
                     <Image
-                      src="/serenasinha.jpg"
+                      src="/SerenaSinha.jpg"
                       alt="Serena Sinha - Professional Photo"
                       width={300}
                       height={300}
