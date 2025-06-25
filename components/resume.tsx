@@ -25,7 +25,7 @@ export function Resume() {
   // 1️⃣  State for the preview modal
   // ——————————————————————————————————————————
   const [showPreview, setShowPreview] = useState(false)
-  const PDF_PATH = "/serena12216517.pdf" // adjust if you move the file
+  const PDF_PATH = "/serena12216517_mod.pdf" // adjust if you move the file
 
   // ——————————————————————————————————————————
   // 2️⃣  Download handler: forces “Save as…”
@@ -33,7 +33,7 @@ export function Resume() {
   const handleDownload = () => {
     const link = document.createElement("a")
     link.href = PDF_PATH
-    link.download = "serena12216517.pdf"
+    link.download = "/serena12216517_mod.pdf"
     link.click()
   }
 
@@ -42,7 +42,7 @@ export function Resume() {
   // ——————————————————————————————————————————
   const handlePreview = () => {
 // This would open a preview modal or new tab
-   window.open("/serena12216517.pdf", "_blank") // Replace with your actual PDF path
+   window.open("/serena12216517_mod.pdf", "_blank") // Replace with your actual PDF path
 }
  
 
