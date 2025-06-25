@@ -13,7 +13,7 @@ const education = [
     degree: "12th with Science",
     institution: "St. Maria Goretti Inter College",
     location: "Bareilly, Uttar Pradesh",
-    period: "2020 – 2021",
+    period: "2019 – 2021",
     grade: "Percentage: 82%",
   },
 ]
